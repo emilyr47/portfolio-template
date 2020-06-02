@@ -17,6 +17,52 @@ body {
     color: #17252a;
   }
 
+    
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:14%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 28%;
+  padding: 25px;
+  
+}
+
+/* .img-holder:hover {
+  background: black;
+  overflow: hidden;
+  
+
+} */
+
+
+
+.img {
+  margin-top: 8px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* display: block; */
+  /* width: 100%;
+  height: auto; */
+  transition: .3s;
+  border-radius: 5px;
+}
+
+.img:hover {
+  cursor: pointer;
+  -moz-box-shadow: 1px 1px 5px #999;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  border: solid 1px #CCC;
+  color: rgba(204, 204, 204, 0.507);
+
+}
+
   #Preverror {
     background-color: #def2f1;
   }
@@ -122,6 +168,81 @@ a:hover {
  */
 html {
 	scroll-behavior: smooth;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+  .row {
+      padding-left: 0;
+  }
+
+  h1 {
+      padding-left: 0;
+      color:  #7a5f15;
+
+  }
+
+  h4 {
+    padding-left: 0;
+    padding-right: 0;
+    color:  #7a5f15;
+
+  }
+
+  h5 {
+      padding-left: 0;
+      color:  #7a5f15;
+
+  }
+
+  button {
+    white-space: nowrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .row {
+      padding-left: 0;
+  }
+
+  h1 {
+      padding-left: 0;
+      color:  #7a5f15;
+
+  }
+
+  h4 {
+    padding-left: 0;
+    padding-right: 0;
+    color:  #7a5f15;
+
+
+  }
+
+  h5 {
+      padding-left: 0;
+      color:  #7a5f15;
+
+  }
+
+  button {
+    white-space: nowrap;
+    padding-bottom: 10px;
+  }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
