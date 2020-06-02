@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio Template</title>
+
+  <!--Boostrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/0a35ea8b6b.js" crossorigin="anonymous"></script>
+
+  <!--JavaScript-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="javascript/function.js"></script>
+
+
+</head>
+
+<body onload="typeWriter()">
+  <script>document.body.className += ' fade-out';
+    $(function () {
+      $('body').removeClass('fade-out');
+    });
+  </script>
+  <script>  document.body.className = 'fade';</script>
+  <!--Desktop Nav-->
+  <section>
+    <div id="nav">
+      <div id= "menu">
+        <a href="#home" onclick="scrollTo(home)">Portfolio</a><a href="#home" onclick="scrollTo(home)">Welcome</a> <a href="#about" onclick="scrollTo(about)">About</a> <a
+          href="#visibility" onclick="scrollTo(visibility)">Resumé</a> <a href="#freedom"
+          onclick="scrollTo(freedom)">Portfolio
+          </a> <a href="#consistency" onclick="scrollTo(consistency)">Contact</a> 
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </section>
+
+  <!--Start First Words Section-->
+  <a name="home" id="home">
+    <section>
+  </a><br><br><br><br><br><br><br><br><br>
+  <div class="first-words">
+    <h1>Hi, I'm Jane Doe.</h1>
+    <p>I'm a designer.</p><br><br>
+    <a href="#about" id="arrow" onclick="scrollTo(about)"><i class="fas fa-arrow-circle-down fa-2x"></i></a>
+
+  </div><br><br><br><br><br><br><br>
+  </section>
+
+
+  <!--End First Words Section-->
+  <!--Start About Section-->
+  <a name="about"><br>
+    <section class="lightLightGreen" id="dark-font">
+  </a><br><br><br>
+  <div class="about">
+    <h3 id="dark-font">About
+  </div>
+  </h3>
+  <p id="dark-font">About Content<a href="https://www.nngroup.com/articles/ten-usability-heuristics/"
+      target="target_blank">
+
+  </p><br>
+  <h3 id="dark-font">Where I'm Going</h3>
+  <p id="dark-font"></a>
+
+  </p>
+  </div><br><br><br>
+  </section>
+  <!--End About Section-->
+  <!--Start Visibility Section-->
+  <a name="visibility"><br>
+    <section>
+  </a><br><br><br>
+  <div class="visibility" id="light-font">
+    <h3>Resumé
+  </div>
+  </h3>
+  </section>
+  <!--End Visibility Section-->
+  <br><br>
+
+
+  <!--Start Freedom Section-->
+  <a name="freedom"><br>
+    <section class="lightLightGreen">
+  </a><br><br><br>
+  <div class="freedom" id="dark-font">
+    <h3> Control & Freedom
+  </div>
+  </h3>
+  <p id="dark-font"><br><br>
+  </p>
+
+  </section>
+  <!--End Freedom Section-->
+
+  <!--Start Consistency Section-->
+  <a name="consistency"><br>
+    <section>
+  </a><br><br><br>
+  <div class="consistency">
+    <h3 id="light-font">Portfolio
+  </div>
+  </h3>
+  <p id="light-font">
+  </p>
+
+  </section>
+  <!--End Consistency Section-->
+  <br><br><br>
+  <!--Start Error Prevention Section-->
+  <a name="errorPrev"><br>
+    <section id="Preverror">
+  </a><br><br><br>
+  <div class="errorPrev">
+    <h3 id="light-font">Contact
+  </div>
+  </h3>
+  <p id="light-font">
+  </p>
+ 
+  </section><br><br>
+  <!--End Error Prevention Section-->
+
+  <!--Start Footer-->
+  <section class="footer"><br><br><br>
+    Portfolio Template by <a href="https://www.linkedin.com/in/emilyraper/">Emily Raper</a><br><br>
+
+  </section>
+
+
+  <!--End Footer-->
+
+  <script>
+
+    var i = 0;
+    var txt = 'Hi, I am the web. Thanks for interacting with me';
+    var speed = 50;
+
+    function typeWriter() {
+      if (i < txt.length) {
+        document.getElementById("first-words").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      }
+    }
+    document.addEventListener("DOMContentLoaded", function (e) {
+      document.body.className = '';
+    });
+  </script>
+
+  <!--Boostrap-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

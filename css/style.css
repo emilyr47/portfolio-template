@@ -1,0 +1,333 @@
+body {
+    opacity: 1;
+    transition: 0.7s opacity;
+    background-color: #3aa5a9;
+  }
+  
+  body.fade {
+      opacity: 0;
+      transition: none;
+  }
+
+  #dark-font {
+    color: #17252a;
+  }
+
+  #light-font {
+    color: #17252a;
+  }
+
+  #Preverror {
+    background-color: #def2f1;
+  }
+
+.first-words {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+
+#arrow {
+align-items: center;
+color: white;
+text-align: center;
+}
+
+#arrow:hover {
+color: #17252a;
+}
+
+a {
+  color: #2b7178; 
+}
+
+a:hover {
+  color: #2b7178; 
+
+}
+.nav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#nav {
+    overflow: hidden;
+    background-color: #17252a;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+    z-index:1;
+
+  }
+  
+  /* nav links */
+  #nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+    
+    
+  }
+
+  #nav a:hover {
+    color: #3aafa9;
+  }
+
+  #nav a:active {
+    color: #3aafa9;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the nav with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+  /**
+ * Smooth scrolling inside an element
+ */
+#arrow {
+	scroll-behavior: smooth;
+}
+
+/**
+ * Smooth scrolling on the whole document
+ */
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
+  .icon {
+    text-align: right;
+  }
+}
+
+  h3 {
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+
+  }
+
+  p {
+      padding-left: 15px;
+      margin-left: 15px;
+      padding-right: 15px;
+
+  }
+
+  .card {
+    border-color: #def2f1;
+    background-color: #def2f1;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  #freedomCard {
+    border-color: #def2f1;
+    background-color: #def2f1;
+
+    
+
+  }
+
+  #badButton {
+      background-color: #17252a;
+      border-radius: .25rem;
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: white;
+  }
+
+  #badButton:hover {
+    cursor: default;
+    text-decoration: none;
+    background-color: #17252a;
+  }
+
+  #goodVis {
+    background-color: #17252a;
+    border-color: #17252a;
+    
+
+  }
+
+  #goodVis:hover {
+    box-shadow: 1px 1px 0px 0px #888888;
+    color: rgb(238, 231, 231);
+    background-color: #293135;
+  }
+
+  #control {
+    width: 100%;
+    background-color: #2b7278d3;
+    color: white;
+    border-color: #2b7178;
+  }
+
+  #badControl {
+    width: 100%;
+    background-color: #2b7278d3;
+    color: white;
+    border-color: #2b7178;
+  }
+
+  #control:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 0px 0px #888888;
+
+  } 
+  
+  #badcontrol:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 0px 0px #888888;
+  }
+
+  .menu2 {
+      background-color: lightgray;
+      color: white;
+      border-radius: 25em;
+      padding-left: 15px;
+      width: 270px;
+      font-size: 10px;
+  }
+
+  #search {
+      background-color: white;
+      color: lightgray;
+      width: 70px; 
+      border-radius: 25em;
+      padding-left: 5px;
+      margin-left: 15px;
+
+  }
+
+  .miniText {
+      font-size: 10px;
+      width: 300px;
+  }
+
+  .quiz {
+      width: 100px;
+      font-size: 10px;
+  }
+
+  .page1, .page2{
+display: inline-block;
+  }
+
+  #badConsis, #goodConsis{
+    display: inline-block;
+    width: 90%;
+    height: 97%;
+      }
+
+      #badConsis {
+        margin-left: 15px;
+      }
+
+      #goodErr, #badErr {
+        display: inline-block;
+      }
+
+      .footer {
+        color: white;
+        background-color: #17252a;
+        text-align: center;
+      }
+
+      #errMessage {
+        background-color: rgba(236, 122, 122, 0.473);
+        color: rgb(46, 45, 45);
+        border-color: rgba(236, 122, 122, 0.473);
+        display: none;
+      }
+
+      #goodVis {
+        color: white;
+      }
+
+      #badlogin {
+        color: white;
+        background-color: #293135;
+        border-color: #293135;
+
+      }
+
+      #badlogin:hover {
+        box-shadow: 1px 1px 0px 0px #888888;
+        color: rgb(238, 231, 231);
+        background-color: #293135;
+      }
+
+      #login {
+        color: white;
+        background-color: #293135;
+        border-color: #293135;
+
+      }
+
+      #login:hover {
+        box-shadow: 1px 1px 0px 0px #888888;
+        color: rgb(238, 231, 231);
+        background-color: #293135;
+      }
+
+    .dark {
+      background-color: #17252a;
+      color: white;
+    }
+
+      .webImg {
+width: 300px;
+height: 150px;
+      }
+
+      .webImg2 {
+        width: 400px;
+        height: 250px;
+      }
+
+      .lightLightGreen {
+        background-color:#def2f1;
+      }
