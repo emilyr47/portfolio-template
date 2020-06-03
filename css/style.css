@@ -32,23 +32,11 @@ body {
   
 }
 
-/* .img-holder:hover {
-  background: black;
-  overflow: hidden;
-  
-
-} */
-
-
-
 .img {
   margin-top: 8px;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  /* display: block; */
-  /* width: 100%;
-  height: auto; */
   transition: .3s;
   border-radius: 5px;
 }
@@ -62,10 +50,6 @@ body {
   color: rgba(204, 204, 204, 0.507);
 
 }
-
-  #Preverror {
-    background-color: #def2f1;
-  }
 
 .first-words {
     color: white;
@@ -181,25 +165,6 @@ html {
       padding-left: 0;
   }
 
-  h1 {
-      padding-left: 0;
-      color:  #7a5f15;
-
-  }
-
-  h4 {
-    padding-left: 0;
-    padding-right: 0;
-    color:  #7a5f15;
-
-  }
-
-  h5 {
-      padding-left: 0;
-      color:  #7a5f15;
-
-  }
-
   button {
     white-space: nowrap;
     margin-bottom: 10px;
@@ -217,26 +182,6 @@ html {
   }
   .row {
       padding-left: 0;
-  }
-
-  h1 {
-      padding-left: 0;
-      color:  #7a5f15;
-
-  }
-
-  h4 {
-    padding-left: 0;
-    padding-right: 0;
-    color:  #7a5f15;
-
-
-  }
-
-  h5 {
-      padding-left: 0;
-      color:  #7a5f15;
-
   }
 
   button {
@@ -281,179 +226,16 @@ html {
 
   }
 
-  .card {
-    border-color: #def2f1;
-    background-color: #def2f1;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  #freedomCard {
-    border-color: #def2f1;
-    background-color: #def2f1;
-
-    
-
-  }
-
-  #badButton {
-      background-color: #17252a;
-      border-radius: .25rem;
-      border: 1px solid transparent;
-      padding: .375rem .75rem;
-      font-size: 1rem;
-      line-height: 1.5;
-      color: white;
-  }
-
-  #badButton:hover {
-    cursor: default;
-    text-decoration: none;
-    background-color: #17252a;
-  }
-
-  #goodVis {
-    background-color: #17252a;
-    border-color: #17252a;
-    
-
-  }
-
-  #goodVis:hover {
-    box-shadow: 1px 1px 0px 0px #888888;
-    color: rgb(238, 231, 231);
-    background-color: #293135;
-  }
-
-  #control {
-    width: 100%;
-    background-color: #2b7278d3;
-    color: white;
-    border-color: #2b7178;
-  }
-
-  #badControl {
-    width: 100%;
-    background-color: #2b7278d3;
-    color: white;
-    border-color: #2b7178;
-  }
-
-  #control:hover {
-    cursor: pointer;
-    box-shadow: 1px 1px 0px 0px #888888;
-
-  } 
-  
-  #badcontrol:hover {
-    cursor: pointer;
-    box-shadow: 1px 1px 0px 0px #888888;
-  }
-
-  .menu2 {
-      background-color: lightgray;
-      color: white;
-      border-radius: 25em;
-      padding-left: 15px;
-      width: 270px;
-      font-size: 10px;
-  }
-
-  #search {
-      background-color: white;
-      color: lightgray;
-      width: 70px; 
-      border-radius: 25em;
-      padding-left: 5px;
-      margin-left: 15px;
-
-  }
-
-  .miniText {
-      font-size: 10px;
-      width: 300px;
-  }
-
-  .quiz {
-      width: 100px;
-      font-size: 10px;
-  }
-
-  .page1, .page2{
-display: inline-block;
-  }
-
-  #badConsis, #goodConsis{
-    display: inline-block;
-    width: 90%;
-    height: 97%;
-      }
-
-      #badConsis {
-        margin-left: 15px;
-      }
-
-      #goodErr, #badErr {
-        display: inline-block;
-      }
-
       .footer {
         color: white;
         background-color: #17252a;
         text-align: center;
       }
 
-      #errMessage {
-        background-color: rgba(236, 122, 122, 0.473);
-        color: rgb(46, 45, 45);
-        border-color: rgba(236, 122, 122, 0.473);
-        display: none;
-      }
-
-      #goodVis {
-        color: white;
-      }
-
-      #badlogin {
-        color: white;
-        background-color: #293135;
-        border-color: #293135;
-
-      }
-
-      #badlogin:hover {
-        box-shadow: 1px 1px 0px 0px #888888;
-        color: rgb(238, 231, 231);
-        background-color: #293135;
-      }
-
-      #login {
-        color: white;
-        background-color: #293135;
-        border-color: #293135;
-
-      }
-
-      #login:hover {
-        box-shadow: 1px 1px 0px 0px #888888;
-        color: rgb(238, 231, 231);
-        background-color: #293135;
-      }
-
     .dark {
       background-color: #17252a;
       color: white;
     }
-
-      .webImg {
-width: 300px;
-height: 150px;
-      }
-
-      .webImg2 {
-        width: 400px;
-        height: 250px;
-      }
 
       .lightLightGreen {
         background-color:#def2f1;
