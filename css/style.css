@@ -1,7 +1,7 @@
 body {
     opacity: 1;
     transition: 0.7s opacity;
-    background-color: #3aa5a9;
+    background-color: #1a1a1d;
   }
   
   body.fade {
@@ -52,10 +52,11 @@ body {
 }
 
 .first-words {
-    color: white;
+    color: #950740;
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
+    font-family: 'Sigmar One', cursive;
 
 }
 
@@ -66,15 +67,16 @@ text-align: center;
 }
 
 #arrow:hover {
-color: #17252a;
+color: #950740;
+
 }
 
 a {
-  color: #2b7178; 
+  color: #950740; 
 }
 
 a:hover {
-  color: #2b7178; 
+  color: #c3073f; 
 
 }
 .nav a.icon {
@@ -88,7 +90,7 @@ a:hover {
 
 .nav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #c3073f;
 }
 
 #nav {
@@ -100,6 +102,15 @@ a:hover {
     width: 100%;
     margin-bottom: 30px;
     z-index:1;
+
+  }
+
+  #description {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding-left: 90px;
+    padding-right: 90px;
 
   }
   
@@ -116,7 +127,7 @@ a:hover {
   }
 
   #nav a:hover {
-    color: #3aafa9;
+    color: #c3073f;
   }
 
   #nav a:active {
@@ -203,6 +214,7 @@ html {
 
   .icon {
     text-align: right;
+    color: #c3073f;
   }
 }
 
