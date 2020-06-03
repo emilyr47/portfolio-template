@@ -10,7 +10,7 @@ body {
   }
 
   #dark-font {
-    color: #17252a;
+    color: #1a1a1d;
   }
 
   #light-font {
@@ -95,7 +95,7 @@ a:hover {
 
 #nav {
     overflow: hidden;
-    background-color: #17252a;
+    background-color: #1a1a1d;
     color: white;
     position: fixed;
     top: 0;
@@ -131,7 +131,7 @@ a:hover {
   }
 
   #nav a:active {
-    color: #3aafa9;
+    color: #c3073f;
   }
   
   /* Page content */
@@ -240,15 +240,23 @@ html {
 
       .footer {
         color: white;
-        background-color: #17252a;
+        background-color: #1a1a1d;
         text-align: center;
       }
 
     .dark {
-      background-color: #17252a;
+      background-color: #6f2232;
       color: white;
     }
 
       .lightLightGreen {
-        background-color:#def2f1;
+        background-color:#4e4e50;
+      }
+
+      #contact {
+        color: white;
+      }
+
+      #lighter {
+        background-color: #6f2232;
       }
