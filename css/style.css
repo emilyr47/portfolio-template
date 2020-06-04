@@ -21,13 +21,13 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding-left:14%;
+  /* padding-left:14%; */
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
-  flex: 25%;
-  max-width: 28%;
+  flex: 33%;
+  max-width: 33%;
   padding: 25px;
   
 }
@@ -39,6 +39,21 @@ body {
   padding-bottom: 20px;
   transition: .3s;
   border-radius: 5px;
+}
+
+.img-holder1 {
+  background-color: #950740;
+  
+}
+
+.img-holder2 {
+  background-color: #4e4e50;
+  
+}
+
+.img-holder3 {
+  background-color: #950740;
+  
 }
 
 .img:hover {
@@ -69,6 +84,10 @@ text-align: center;
 #arrow:hover {
 color: #950740;
 
+}
+
+#arrow-text {
+  padding-bottom: 15px;
 }
 
 a {
@@ -109,8 +128,8 @@ a:hover {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
 
   }
   
@@ -250,7 +269,8 @@ html {
     }
 
       .lightLightGreen {
-        background-color:#4e4e50;
+        background-color:#1a1a1d;
+        color: white;
       }
 
       #contact {
@@ -259,4 +279,9 @@ html {
 
       #lighter {
         background-color: #6f2232;
+      }
+
+      .grey {
+        background-color: #4e4e50;
+        color: #1a1a1d;
       }
