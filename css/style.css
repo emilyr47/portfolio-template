@@ -21,15 +21,13 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* padding-left:14%; */
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 33%;
   max-width: 33%;
-  padding: 10px;
-  
+padding:1px;  
 }
 
 .img {
@@ -42,6 +40,8 @@ body {
 
 .img-holder1 {
   background-color: #950740;
+  /* margin-bottom: 1px;
+  margin-top: 1px; */
   
 }
 
@@ -50,41 +50,47 @@ body {
   -moz-box-shadow: 1px 1px 1px #950740;
   -webkit-box-shadow: 1px 1px 1px #950740;
   box-shadow: 1px 1px 1px #950740;
-  border: solid 1px #950740;
   color: #950740;
 }
 
 .img-holder2 {
   background-color: #4e4e50;
+  /* margin-bottom: 1px;
+  margin-top: 1px; */
+
   
 }
 
 .img-holder2:hover {
   cursor: pointer;
-  -moz-box-shadow: 1px 1px 1px #950740;
-  -webkit-box-shadow: 1px 1px 1px #950740;
-  box-shadow: 1px 1px 1px #950740;
-  border: solid 1px #950740;
-  color: #950740;
+  -moz-box-shadow: 1px 1px 1px #4e4e50;
+  -webkit-box-shadow: 1px 1px 1px #4e4e50;
+  box-shadow: 1px 1px 1px #4e4e50;
+  color: #4e4e50;
 }
 
 .img-holder3 {
   background-color: #950740;
+  /* margin-bottom: 1px;
+  margin-top: 1px; */
+
   
 }
 
 .img-holder4 {
   background-color: #4e4e50;
+  /* margin-bottom: 1px;
+  margin-top: 1px; */
+
 
 }
 
 .img-holder4:hover {
   cursor: pointer;
-  -moz-box-shadow: 1px 1px 1px #950740;
-  -webkit-box-shadow: 1px 1px 1px #950740;
-  box-shadow: 1px 1px 1px #950740;
-  border: solid 1px #950740;
-  color: #950740;
+  -moz-box-shadow: 1px 1px 1px #4e4e50;
+  -webkit-box-shadow: 1px 1px 1px #4e4e50;
+  box-shadow: 1px 1px 1px #4e4e50;
+  color: 4e4e50;
 }
 
 
@@ -93,7 +99,6 @@ body {
   -moz-box-shadow: 1px 1px 1px #950740;
   -webkit-box-shadow: 1px 1px 1px #950740;
   box-shadow: 1px 1px 1px #950740;
-  border: solid 1px #950740;
   color: #942954;
 }
 
