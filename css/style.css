@@ -28,17 +28,16 @@ body {
 .column {
   flex: 33%;
   max-width: 33%;
-  padding: 25px;
+  padding: 10px;
   
 }
 
 .img {
-  margin-top: 8px;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   transition: .3s;
   border-radius: 5px;
+  float: center;
 }
 
 .img-holder1 {
@@ -46,9 +45,27 @@ body {
   
 }
 
+.img-holder1:hover {
+  cursor: pointer;
+  -moz-box-shadow: 1px 1px 1px #950740;
+  -webkit-box-shadow: 1px 1px 1px #950740;
+  box-shadow: 1px 1px 1px #950740;
+  border: solid 1px #950740;
+  color: #950740;
+}
+
 .img-holder2 {
   background-color: #4e4e50;
   
+}
+
+.img-holder2:hover {
+  cursor: pointer;
+  -moz-box-shadow: 1px 1px 1px #950740;
+  -webkit-box-shadow: 1px 1px 1px #950740;
+  box-shadow: 1px 1px 1px #950740;
+  border: solid 1px #950740;
+  color: #950740;
 }
 
 .img-holder3 {
@@ -56,7 +73,31 @@ body {
   
 }
 
-.img:hover {
+.img-holder4 {
+  background-color: #4e4e50;
+
+}
+
+.img-holder4:hover {
+  cursor: pointer;
+  -moz-box-shadow: 1px 1px 1px #950740;
+  -webkit-box-shadow: 1px 1px 1px #950740;
+  box-shadow: 1px 1px 1px #950740;
+  border: solid 1px #950740;
+  color: #950740;
+}
+
+
+.img-holder3:hover {
+  cursor: pointer;
+  -moz-box-shadow: 1px 1px 1px #950740;
+  -webkit-box-shadow: 1px 1px 1px #950740;
+  box-shadow: 1px 1px 1px #950740;
+  border: solid 1px #950740;
+  color: #942954;
+}
+
+/* .img:hover {
   cursor: pointer;
   -moz-box-shadow: 1px 1px 5px #999;
   -webkit-box-shadow: 1px 1px 5px #999;
@@ -64,7 +105,7 @@ body {
   border: solid 1px #CCC;
   color: rgba(204, 204, 204, 0.507);
 
-}
+} */
 
 .first-words {
     color: #950740;
@@ -131,6 +172,10 @@ a:hover {
     padding-left: 150px;
     padding-right: 150px;
 
+  }
+
+  #pt {
+    color: white;
   }
   
   /* nav links */
